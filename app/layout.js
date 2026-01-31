@@ -1,0 +1,11 @@
+export const metadata = {
+  title: "Zoom Webhook Bridge",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="es">
+      <body>{children}</body>
+    </html>
+  );
+}
